@@ -9,9 +9,9 @@ const Main = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="mx-10">
-        <Outlet />
-      </div>
+
+      <Outlet />
+
       <Footer></Footer>
     </div>
   );
