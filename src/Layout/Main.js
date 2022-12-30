@@ -9,7 +9,9 @@ const Main = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <Outlet />
+      <div className="mx-10">
+        <Outlet />
+      </div>
       <Footer></Footer>
     </div>
   );
